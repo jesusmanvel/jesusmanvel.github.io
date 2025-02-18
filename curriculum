@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Tu Nombre Completo</h1>
+        <p>Email: tuemail@ejemplo.com | Teléfono: +34 123 456 789</p>
+        <p>Dirección: Calle Ejemplo 123, 35001 Las Palmas de Gran Canaria, España</p>
+    </div>
+    <div class="section">
+        <h2>Experiencia Profesional</h2>
+        <ul>
+            <li>
+                <strong>Puesto de Trabajo</strong> en <em>Nombre de la Empresa</em><br>
+                <small>Fecha de inicio - Fecha de finalización</small><br>
+                Descripción breve de tus responsabilidades y logros en este puesto.
+            </li>
+            <!-- Añade más experiencias según sea necesario -->
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Educación</h2>
+        <ul>
+            <li>
+                <strong>Título Obtenido</strong> en <em>Nombre de la Institución Educativa</em><br>
+                <small>Año de graduación</small><br>
+                Descripción breve de tus estudios o logros académicos.
+            </li>
+            <!-- Añade más educación según sea necesario -->
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Habilidad 1</li>
+            <li>Habilidad 2</li>
+            <li>Habilidad 3</li>
+            <!-- Añade más habilidades según sea necesario -->
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>
+                <strong>Nombre del Proyecto</strong><br>
+                Descripción breve del proyecto y tu rol en él.
+            </li>
+            <!-- Añade más proyectos según sea necesario -->
+        </ul>
+    </div>
+</body>
+</html>
